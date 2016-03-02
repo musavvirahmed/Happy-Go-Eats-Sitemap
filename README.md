@@ -1,7 +1,7 @@
 # Slickmap CSS
 A Visual Sitemapping Tool for Web Developers
 
-Created by Matt Everson of Astuteo
+Created by Matt Everson of Astuteo  
 https://www.astuteo.com/slickmap
 
 
@@ -27,5 +27,3 @@ https://www.astuteo.com/slickmap
 
 5. Depending on how you use these files, you may need to correct the image
    paths within the CSS file.
-
-
