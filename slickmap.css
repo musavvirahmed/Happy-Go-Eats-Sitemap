@@ -62,6 +62,8 @@ ol, ul {
 	Lines
 ------------------------------------------------------------ */
 
+.primaryNav ul:before,
+.primaryNav ul:after,
 .primaryNav ul li:before,
 .primaryNav ul li:after {
 	display: block;
@@ -69,22 +71,63 @@ ol, ul {
 	position: absolute;
 	border-width: 0;
 	border-color: rgba(0,0,0,.1);
-	//border-color: red;
 	border-style: solid;
+	z-index: -1;
+	// border-color: red;
 }
-
+.primaryNav > ul > li:after {
+	height: 1.75em;
+	top: 0;
+	right: 0;
+	width: 1.25em; 
+	border-bottom-width: 2px;
+	// border-color: red;
+}
 .primaryNav ul ul li:after {
 	width: 50%;
 	height: .6875em;
 	top: 0;
 	right: 1px;
 	border-left-width: 2px;
-	//display: block;
-	//width: 100%;
-	// width: 100%;
-	// clear: left;
-	// margin-top: 0;
-	//background: url('images/vertical-line.png') center bottom repeat-y;
+	// border-color: red;
+}
+.primaryNav ul ul li:first-child:before {
+	top: .6875em;
+	width: 50%;
+	height: 1.3125em;
+	right: 1px;
+	border-left-width: 2px;
+	// border-color: red;
+}
+.primaryNav > ul > li:last-child:after {
+	border-bottom-width: 0;
+}
+.primaryNav ul ul ul li:before {
+	width: calc(50% - 5px) !important;
+	height: calc(100% - 2px);
+	top: -50%;
+	left: 0;
+	border-left-width: 2px;
+	border-bottom-width: 2px;
+	// border-color: red;
+}
+.primaryNav ul ul ul li:first-child:before {
+	height: 53%;
+	top: auto;
+	bottom: calc(50% - 5px);
+	border-top-width: 2px;
+	// border-color: red;
+}
+.primaryNav ul ul ul:before {
+	width: 50%;
+	height: 1.25em;
+	top: -10px;
+	right: 1px;
+	border-left-width: 2px;
+	//border-color: red;
+}
+.primaryNav ul ul ul li:after {
+	border-width: 0;
 }
 
 // .primaryNav li:before,
@@ -234,11 +277,12 @@ ol, ul {
 }
 .primaryNav ul {
 	display: flex;
+	position: relative;
 	//width: 100%;
 }
 .primaryNav li {
 	flex-grow: 1;
-	padding-right: 20px;
+	padding-right: 1.25em;
 	position: relative;
 	//padding: 30px 0px;
 	//margin-top: -30px;
@@ -260,9 +304,6 @@ ol, ul {
 .primaryNav li a:hover {
 	background-color: #e2f4fd;
 	border-color: #97bdcf;
-}
-.primaryNav li:last-child {
-	//background: url('images/L1-right.png') center top no-repeat;
 }
 a:link:before,
 a:visited:before {
@@ -293,22 +334,22 @@ a:visited:before {
 	// margin-top: 0;
 	//background: url('images/vertical-line.png') center bottom repeat-y;
 }
-.primaryNav li li a {
+.primaryNav ul ul li a {
 	background-color: #cee3ac;
 	border-color: #b8da83;
 }
-.primaryNav li li a:hover {
+.primaryNav ul ul li a:hover {
 	border-color: #94b75f;
 	background-color: #e7f1d7;
 }
-.primaryNav li li:first-child {
-	padding-top: 30px;
+.primaryNav ul ul li:first-child {
+	padding-top: 2em;
 }
-.primaryNav li li:last-child {
+.primaryNav ul ul li:last-child {
 	//background: url('images/vertical-line.png') center bottom repeat-y;
 }
-.primaryNav li li a:link:before,
-.primaryNav li li a:visited:before {
+.primaryNav ul ul li a:link:before,
+.primaryNav ul ul li a:visited:before {
 	color: #8faf5c;
 }
 
@@ -328,8 +369,8 @@ a:visited:before {
 	border-color: #e3ca4b;
 	font-size: .75em;
 	padding: .5em 0;
-	width: 80%;
-		margin-right: 0;
+	width: 90%;
+	margin-right: 0;
 	margin-left: auto;
 
 }
