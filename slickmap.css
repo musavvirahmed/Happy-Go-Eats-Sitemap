@@ -335,41 +335,45 @@ a:visited:after {
 	}
 }
 
-/* The media queries below keep grid column widths intact when
-the page wraps to avoid wrapped line items showing at 100% width.
-These queries also make the homepage line item flex appropriately.
-When your sitemap is complete, remove the queries below that you
-don't need, and your sitemap layout will function perfectly. */
+/* The media queries below keep the grid column widths intact when
+a column wraps. This prevents the wrapped column from displaying at
+100% width. These queries also make the homepage line item flex
+appropriately. When your sitemap is complete, remove the queries
+that you don't need, and your sitemap layout will work perfectly. */
 
-/* three column */
+/* two column */
 @media screen and (min-width: 30em) {
 	.primaryNav > ul > li {	max-width: 50%;	}
 }
-/* four column */
+/* three column */
 @media screen and (min-width: 38.5em) {
 	.primaryNav > ul > li {	max-width: 33%;	}
 }
-/* five column */
+/* four column */
 @media screen and (min-width: 50em) {
 	.primaryNav > ul > li {	max-width: 25%;	}
 }
-/* six column */
+/* five column */
 @media screen and (min-width: 61em) {
 	.primaryNav > ul > li {	max-width: 20%;	}
 }
-/* seven column */
+/* six column */
 @media screen and (min-width: 73em) {
 	.primaryNav > ul > li {	max-width: 16.66%;	}
 }
-/* eight column */
+/* seven column */
 @media screen and (min-width: 84.5em) {
 	.primaryNav > ul > li {	max-width: 14.285%;	}
 }
-/* nine column */
+/* eight column */
 @media screen and (min-width: 96em) {
 	.primaryNav > ul > li {	max-width: 12.5%; }
 }
-/* ten column */
+/* nine column */
 @media screen and (min-width: 107.5em) {
 	.primaryNav > ul > li {	max-width: 11.11%; }
+}
+/* ten column */
+@media screen and (min-width: 119em) {
+	.primaryNav > ul > li {	max-width: 10%; }
 }
