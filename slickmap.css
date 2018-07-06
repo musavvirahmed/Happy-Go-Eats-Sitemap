@@ -30,7 +30,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
 	background: white;
 	color: black;
 	font-size: 16px;
@@ -79,34 +79,38 @@ body {
 }
 .primaryNav li a {
 	margin: 0;
-	padding: .7142em .625em;
+	padding: .875em .9375em .9375em .9375em;
 	display: block;
-	font-size: .875em;
+	font-size: .9375em;
 	font-weight: bold;
-	text-align: center;
-	color: black;
-	background: #c3eafb url('images/white-highlight.png') top left repeat-x;
-	border: 2px solid #b5d9ea;
-	border-radius: 3px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	// text-align: center;
+	color: white;
+	background: #0090ff;
+	text-shadow: 0 0 5px rgba(0,0,0,.2);
+	border: 1px solid  rgba(0,0,0,.025);
+	border-radius: 2px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.35);
 	text-decoration: none;
 }
 .primaryNav li a:hover {
 	background-color: #e2f4fd;
 	border-color: #97bdcf;
 }
-a:link:before,
-a:visited:before {
+a:link:after,
+a:visited:after {
 	content: " "attr(href)" ";
 	display: block;
-	text-transform: uppercase;
-	font-size: 10px;
-	margin-bottom: 5px;
+	// text-transform: uppercase;
+	font-weight: 600;
+	font-size: .75em;
+	margin-top: .25em;
+	text-shadow: 0 0 0 rgba(0,0,0,0);
 	word-wrap: break-word;
+	color: rgba(0,0,0,.65);
 }
-.primaryNav li a:link:before,
-.primaryNav li a:visited:before {
-	color: #78a9c0;
+.primaryNav li a:link:after,
+.primaryNav li a:visited:after {
+	// color: #78a9c0;
 }
 
 /* -------- Second Level --------- */
@@ -119,19 +123,19 @@ a:visited:before {
 	padding-right: 0;
 }
 .primaryNav ul ul li a {
-	background-color: #cee3ac;
-	border-color: #b8da83;
+	background-color: #28bf5e;
+	// border-color: #b8da83;
 }
 .primaryNav ul ul li a:hover {
-	border-color: #94b75f;
-	background-color: #e7f1d7;
+	// border-color: #94b75f;
+	// background-color: #e7f1d7;
 }
 .primaryNav ul ul li:first-child {
 	padding-top: 2em;
 }
-.primaryNav ul ul li a:link:before,
-.primaryNav ul ul li a:visited:before {
-	color: #8faf5c;
+.primaryNav ul ul li a:link:after,
+.primaryNav ul ul li a:visited:after {
+	// color: #8faf5c;
 }
 
 /* -------- Third Level --------- */
@@ -146,24 +150,24 @@ a:visited:before {
 	padding-bottom: .3125em;
 }
 .primaryNav ul ul ul li a {
-	background-color: #fff7aa;
-	border-color: #e3ca4b;
+	background-color: #ff9d00;
+	// border-color: #e3ca4b;
 	font-size: .75em;
-	padding: .5em;
+	padding: .75em;
 	width: 90%;
 	margin-right: 0;
 	margin-left: auto;
 }
 .primaryNav ul ul ul li a:hover {
-	background-color: #fffce5;
+	background-color: #EF6C00;
 	border-color: #d1b62c;
 }
 .primaryNav ul ul ul li:first-child {
 	padding-top: 1em;
 }
-.primaryNav ul ul ul li a:link:before,
-.primaryNav ul ul ul li a:visited:before {
-	color: #ccae14;
+.primaryNav ul ul ul li a:link:after,
+.primaryNav ul ul ul li a:visited:after {
+	// color: #ccae14;
 	font-size: .75em;
 }
 
@@ -175,17 +179,17 @@ a:visited:before {
 	padding-bottom: .3125em;
 }
 .primaryNav ul ul ul ul li a {
-	background-color: #e3c1fc;
-	border-color: #d5b4eb;
-	padding: .625em 0;
+	background-color: #de003a;
+	// border-color: #d5b4eb;
+	padding: .75em ;
 	width: 80%;
 }
 .primaryNav ul ul ul ul li a:hover {
 	background-color: #f0defe;
 	border-color: #b887dc;
 }
-.primaryNav ul ul ul ul li a:link:before,
-.primaryNav ul ul ul ul li a:visited:before {
+.primaryNav ul ul ul ul li a:link:after,
+.primaryNav ul ul ul ul li a:visited:after {
 	display: none;
 }
 
@@ -302,25 +306,28 @@ a:visited:before {
 }
 .utilityNav li a {
 	display: block;
-	border: 2px solid #e3ca4b;
+	// border: 2px solid #e3ca4b;
 	font-size: .75em;
-	padding: .5em 1em;
+	font-weight: 700;
+	padding: .75em 1em;
 	font-weight: bold;
 	text-align: center;
-	color: black;
-	background: #fff7aa url('images/white-highlight.png') top left repeat-x;
-	border-radius: 5px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	color: white;
+	background-color: #ff9d00;
+	border-radius: 2px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.35);
 	text-decoration: none;
 }
 .utilityNav li a:hover {
 	background-color: #fffce5;
 	border-color: #d1b62c;
 }
-.utilityNav li a:link:before,
-.utilityNav li a:visited:before {
-	color: #ccae14;
+.utilityNav li a:link:after,
+.utilityNav li a:visited:after {
+	color: rgba(0,0,0,.65);
 	font-size: .75em;
+	font-weight: 700;
+	margin-top: .25em;
 }
 
 /* ------------------------------------------------------------
