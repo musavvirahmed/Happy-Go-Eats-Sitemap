@@ -6,7 +6,7 @@ https://www.astuteo.com/slickmap
 
 ### Improvements in Version 2
 
-- Floats and fixed column have been replaced with flexbox. 
+- Floats and column-width classes have been replaced with flexbox. 
 - Supporting images no longer required. All visuals are handled through CSS.
 - Slickmap is now responsive to all viewport widths and mobile devices.
 - New and improved color scheme.
