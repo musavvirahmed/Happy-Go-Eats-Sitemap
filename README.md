@@ -4,7 +4,7 @@ A Visual Sitemapping Tool for Web Developers
 Created by Matt Everson of Astuteo  
 https://www.astuteo.com/slickmap
 
-###Improvements in Version 2
+### Improvements in Version 2
 
 - Floats and fixed column have been replaced with flexbox. 
 - Supporting images no longer required. All visuals are handled through CSS.
@@ -12,7 +12,7 @@ https://www.astuteo.com/slickmap
 - New and improved color scheme.
 - Updated version with original color scheme is also available on Github. 
 
-###How To Use
+### How To Use
 
 1. Create an HTML file with an unordered list of links. Slickmap was
    designed to style actual linked navigation, not simply lists, so make
@@ -32,7 +32,7 @@ https://www.astuteo.com/slickmap
    comment out the queries that go beyond the number of columns you need. For
    example if your sitemap is 4 columns, remove queries for columns 5 and over.
 
-###Donations
+### Donations
 
 Slickmap is entirely free for you to download and use, modify for your own applications, or otherwise make millions from. That said, if you happen to find yourself so overwhelmed with gratitude that you want to buy me a beer with Bitcoin, there’s no doubt the gesture will be appreciated. Either way, enjoy. To donate, send to the appropriate account below:
 
