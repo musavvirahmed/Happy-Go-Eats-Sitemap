@@ -5,7 +5,7 @@ Created by Matt Everson of Astuteo
 https://www.astuteo.com/slickmap
 
 
-###How To Use
+### How To Use
 
 1. Create an HTML file with an unordered list of links. SlickMap was
    designed to style actual linked navigation, not simply lists, so make
