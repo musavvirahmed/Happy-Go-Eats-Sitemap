@@ -36,6 +36,6 @@ https://www.astuteo.com/slickmap
 
 Slickmap is entirely free for you to download and use, modify for your own applications, or otherwise make millions from. That said, if you happen to find yourself so overwhelmed with gratitude that you want to buy me a beer with Bitcoin, there’s no doubt the gesture will be appreciated. Either way, enjoy. To donate, send to the appropriate account below:
 
-- BTC: 3PC7sseUcTFRDG5SuP713rHMp51Yp79Ynt
-- LTC: MDoZaCqB57PPWZgrSkfvoRUiQkn14Mkqah
-- ETH: 0x6f62d4F65Ed04E0357fFC49663B7fc18829fAffC
+- **BTC:** 3PC7sseUcTFRDG5SuP713rHMp51Yp79Ynt
+- **LTC:** MDoZaCqB57PPWZgrSkfvoRUiQkn14Mkqah
+- **ETH:** 0x6f62d4F65Ed04E0357fFC49663B7fc18829fAffC
