@@ -6,10 +6,11 @@ https://www.astuteo.com/slickmap
 
 ### Improvements in Version 2
 
-- Floats and column-width classes have been replaced with flexbox. 
-- Supporting images no longer required. All visuals are handled through CSS.
-- Slickmap is now responsive to all viewport widths and mobile devices.
-- New and improved color scheme also available.
+- Four levels deep! Upgraded from a previous maximum of three.
+- Flexbox! Floats and hardcoded column widths have been eliminated.
+- No images! All visual elements are now CSS-driven.
+- Responsive! Maybe a pointless endeavor, but woo hoo.
+- New color scheme! Updated version of original skin also available.
 
 ### How To Use
 
