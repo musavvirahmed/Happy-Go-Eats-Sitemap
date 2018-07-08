@@ -95,14 +95,17 @@ body {
 	background-color: #e2f4fd;
 	border-color: #97bdcf;
 }
-a:link:before,
-a:visited:before {
+.primaryNav a:link:after,
+.primaryNav a:visited:after,
+.utilityNav a:link:after,
+.utilityNav a:visited:after {
 	content: " "attr(href)" ";
 	display: block;
-	text-transform: uppercase;
-	font-size: 10px;
-	margin-bottom: 5px;
+	font-weight: 600;
+	font-size: .75em;
+	margin-top: .25em;
 	word-wrap: break-word;
+	color: rgba(255,255,255,.75);
 }
 .primaryNav li a:link:before,
 .primaryNav li a:visited:before {
