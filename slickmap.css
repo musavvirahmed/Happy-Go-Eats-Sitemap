@@ -92,8 +92,10 @@ body {
 .primaryNav li a:hover {
 	background-color: #0070f9;
 }
-a:link:after,
-a:visited:after {
+.primaryNav a:link:after,
+.primaryNav a:visited:after,
+.utilityNav a:link:after,
+.utilityNav a:visited:after {
 	content: " "attr(href)" ";
 	display: block;
 	font-weight: 600;
