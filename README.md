@@ -1,8 +1,9 @@
 # Slickmap CSS
-A Visual Sitemapping Tool for Web Developers
+
+**A Visual Sitemapping Tool for Web Developers**
 
 Created by Matt Everson of Astuteo  
-https://www.astuteo.com/slickmap
+[https://www.astuteo.com/slickmap](https://www.astuteo.com/slickmap)
 
 ### Improvements in Version 2
 
@@ -24,7 +25,7 @@ https://www.astuteo.com/slickmap
    `<link rel="stylesheet" type="text/css" media="screen,print" href="slickmap.css" />`
 
 3. Within your HTML file, the link to your home page should be at the top
-   of the unordered list and have the id of #home. This is required to pull
+   of the unordered list and have the id of `#home`. This is required to pull
    the home page link out above the rest of the site tree.
 
 4. Responsive media queries are provided at the end of slickmap.css to optimize
@@ -34,7 +35,7 @@ https://www.astuteo.com/slickmap
 
 ### Donations
 
-Slickmap is entirely free for you to download and use, modify for your own applications, or otherwise make millions from. That said, if you happen to find yourself so overwhelmed with gratitude that you want to buy me a beer with Bitcoin, there’s no doubt the gesture will be appreciated. Either way, enjoy. To donate, send to the appropriate account below:
+Slickmap is entirely free for you to download and use, modify for your own applications, or otherwise make millions from. That said, if you happen to find yourself so overwhelmed with gratitude that you want to buy me a beer with Bitcoin, there’s no doubt the gesture will be appreciated. Either way, enjoy. To donate, shoot those digital dólares to any address below:
 
 - **BTC:** 3PC7sseUcTFRDG5SuP713rHMp51Yp79Ynt
 - **LTC:** MDoZaCqB57PPWZgrSkfvoRUiQkn14Mkqah
