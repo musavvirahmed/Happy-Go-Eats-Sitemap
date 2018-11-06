@@ -77,13 +77,15 @@ body {
 	margin-top: 3em;
 }
 .primaryNav li a {
+	pointer-events: none;
+	cursor: default;
 	margin: 0;
 	padding: .875em .9375em .9375em .9375em;
 	display: block;
 	font-size: .9375em;
 	font-weight: bold;
 	color: white;
-	background: #0090ff;
+	background: #DF0616;
 	text-shadow: 0 0 10px rgba(0,0,0,.1);
 	border: 1px solid  rgba(0,0,0,.025);
 	box-shadow: 0px 2px 1px rgba(0,0,0,0.15);
@@ -115,7 +117,7 @@ body {
 	padding-right: 0;
 }
 .primaryNav ul ul li a {
-	background-color: #28bf5e;
+	background-color: #A6A9B1;
 }
 .primaryNav ul ul li a:hover {
 	background-color: #09a63e;
@@ -271,8 +273,7 @@ body {
 ------------------------------------------------------------ */
 
 .utilityNav {
-	/* float: right; */
-	float: left;
+	float: right;
 	margin-top: 0;
 	margin-bottom: -.25em;
 	margin-right: 1.25em;
@@ -293,16 +294,14 @@ body {
 	font-weight: bold;
 	text-align: left;
 	color: white;
-	/* background-color: #ff9d00; */
-	background-color: #A6A9B1;
+	background-color: #ff9d00;
 	border: 1px solid  rgba(0,0,0,.025);
 	box-shadow: 0px 2px 0 rgba(0,0,0,0.15);
 	text-shadow: 0 0 10px rgba(0,0,0,.15);
 	text-decoration: none;
 }
 .utilityNav li a:hover {
-	/* background-color: #ff831b; */
-  background-color: #71747A;
+	background-color: #ff831b;
 }
 .utilityNav li a:link:after,
 .utilityNav li a:visited:after {
