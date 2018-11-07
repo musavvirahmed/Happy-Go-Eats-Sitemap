@@ -118,7 +118,7 @@ body {
 }
 .primaryNav ul ul li a {
 	color: white;
-	background-color: #A6A9B1;
+	background-color: #7A7D85;
 }
 .primaryNav ul ul li a:hover {
 	background-color: #A6A9B1;
@@ -139,7 +139,7 @@ body {
 	padding-bottom: .3125em;
 }
 .primaryNav ul ul ul li a {
-	background-color: #ff9d00;
+	background-color: #989CA5;
 	font-size: .75em;
 	padding: .75em;
 	width: 90%;
