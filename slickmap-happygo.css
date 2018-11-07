@@ -367,9 +367,9 @@ that you don't need, and your sitemap layout will work perfectly. */
 	.primaryNav > ul > li {	max-width: 16.66%;	}
 }
 /* seven column */
-@media screen and (min-width: 84.5em) {
+/* @media screen and (min-width: 84.5em) {
 	.primaryNav > ul > li {	max-width: 14.285%;	}
-}
+} */
 /* eight column */
 /* @media screen and (min-width: 96em) {
 	.primaryNav > ul > li {	max-width: 12.5%; }
